@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.10
 
 import PackageDescription
 
@@ -6,6 +6,7 @@ let package = Package(
   name: "JSONSchema",
   platforms: [
     .macOS(.v10_13),
+    .iOS(.v15),
   ],
   products: [
     .library(name: "JSONSchema", targets: ["JSONSchema"]),
